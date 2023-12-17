@@ -1,0 +1,26 @@
+diff --git a/node_modules/vuesax/dist/vuesax.common.js b/node_modules/vuesax/dist/vuesax.common.js
+index 5f95729..ecef80b 100644
+--- a/node_modules/vuesax/dist/vuesax.common.js
++++ b/node_modules/vuesax/dist/vuesax.common.js
+@@ -2386,7 +2386,7 @@ function vsSelectvue_type_script_lang_js_objectSpread(target) { for (var i = 1;
+       this.setLabelClass(this.$refs.inputSelectLabel, true);
+       var inputx = this.$refs.inputselect;
+       setTimeout(function () {
+-        document.addEventListener("click", _this4.clickBlur);
++        document.addEventListener("mousedown", _this4.clickBlur);
+       }, 100);
+ 
+       if (this.autocomplete && this.multiple) {
+diff --git a/node_modules/vuesax/dist/vuesax.umd.js b/node_modules/vuesax/dist/vuesax.umd.js
+index 2d2f3c1..6072618 100644
+--- a/node_modules/vuesax/dist/vuesax.umd.js
++++ b/node_modules/vuesax/dist/vuesax.umd.js
+@@ -2395,7 +2395,7 @@ function vsSelectvue_type_script_lang_js_objectSpread(target) { for (var i = 1;
+       this.setLabelClass(this.$refs.inputSelectLabel, true);
+       var inputx = this.$refs.inputselect;
+       setTimeout(function () {
+-        document.addEventListener("click", _this4.clickBlur);
++        document.addEventListener("mousedown", _this4.clickBlur);
+       }, 100);
+ 
+       if (this.autocomplete && this.multiple) {
